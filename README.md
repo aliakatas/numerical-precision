@@ -46,7 +46,7 @@ After building the executable (default target name is `test-numerical-precision`
 
 Sample output (values depend on your platform/compiler):
 
-```bash
+```
 Machine precision for float:        1.1920928955078125e-07
 Machine precision for double:       2.2204460492503131e-16
 Machine precision for long double:  1.0842021724855044e-19
