@@ -67,20 +67,15 @@ bool is64 = numerical_precision::running_on_64bit_architecture();
 
 --------
 
-**Notes**:
-- `get_machine_precision<T>()` requires `T` to be a floating-point type; it uses a shrinking loop to find the smallest `e` such that `1 + e != 1`.
-- The implementation is header-only and portable; it relies on the C++ standard library and C++17 features.
+## Notes
 
-**Requirements & Compatibility**
+### Requirements & Compatibility
 - C++17 compatible compiler (GCC, Clang, MSVC).
 - CMake >= 3.16 (as declared in `CMakeLists.txt`).
 
-**License**
+### License
 This repository includes a `LICENSE` file. Please review it for terms.
 
-**Contributing**
-- Fixes, improvements, and suggestions are welcome. Open an issue or submit a pull request describing the change.
-
-**Contact / Author**
-- See repository metadata or the `git` history for author information.
+### Contributing
+Fixes, improvements, and suggestions are welcome. Open an issue or submit a pull request describing the change.
 
